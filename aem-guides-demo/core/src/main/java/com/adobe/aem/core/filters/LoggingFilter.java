@@ -32,6 +32,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Simple servlet filter component that logs incoming requests.
+ * It also helps for demo.
  */
 @Component(service = Filter.class,
            property = {
